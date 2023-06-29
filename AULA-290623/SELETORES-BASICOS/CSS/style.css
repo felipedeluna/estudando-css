@@ -1,0 +1,58 @@
+/* Seletpres = recursos do css para selecionar conjuntos de elementos de uma página HTML.
+    -Seletor de elemento (nome da tag) = TODOS da tag
+    -id (#meuId) = um único elemento
+    -classe (.minhaClasse) = conjunto de elementos
+*/
+
+/* Seletor de elemento */
+
+body{
+    background-color: bisque;
+}
+
+h1{
+    /* Qualquer <h1> será afetado */
+    color: orange;
+    font-style: italic;
+}
+
+/* Seletor po id */
+
+#elemento1{
+    /* Somente se aplica a um único elemento */
+    color: red;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+/* Seletor por classe */
+.paragrafo{
+    /* Aplicamos classe em multiplos elementos */
+    text-align: center;
+    color: grey;
+}
+
+.sublinhado{
+    text-decoration: underline;
+}
+
+/* Combinadores de descendente */
+
+.secao1{
+    background-color: coral;
+}
+
+/* Seleciona qualquer tag dentro de .secao1 */
+.secao1 img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.secao1 h3{
+    color: white;
+}
+
+.secao1 p{
+    text-align: justify
+}
