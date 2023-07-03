@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+/* Display: */
+
+/* Block -> Ocupa toda a largura e quebra linha no final/Obedece dimensão */
+.box{
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* Inline -> Ocupa apenas o necessário/Não obedece dimensão(Width e Height) */
+.inline{
+    display: inline;
+}
+
+/* Inline -> Ocupa apenas o necessário + obedece dimensão(Width e Height) */
+.inline-block{
+    display: inline-block;
+}
+
+/* None -> Elemento não sera exibido */
+.none{
+    display: none;
+}
