@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-align: justify;
+}
+
+body{
+    background-image: url("https://soulcodeacademy.org/assets/images/logo/light-logo.png") , url("https://soulcodeacademy.org/assets/images/logo/light-logo.png");
+    /* no-repeat repeat-x repeat-y space round */
+    background-repeat: no-repeat ;
+    /* bottom right top left center */
+    background-position: center, top;
+    /* acompanha o scroll */
+    background-attachment:fixed;
+    /* define a largura e a altura é automática */
+    background-size: 600px, 300px;
+}
+.card{
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    background-image: url("https://media.tenor.com/IjztxnQXSkMAAAAC/w3schools-my.gif");
+    background-repeat: no-repeat;
+    background-position: center ;
+    /* tenta preencher o espaço do container */
+    background-size: cover;
+}
