@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-1{
+    background-color: bisque;
+    /* padding: 12px; */
+
+    display: flex; /* Ativa o flexbox */
+    /* Direção que os elementos são distribuidos ||
+    row, column */
+    flex-direction: row; 
+    /* Indica se pode quebrar linha se não houver espaço || 
+    nowhap wrap*/
+    flex-wrap: wrap; 
+    /* flex-flow: row wrap ; Atalho para flex-direction e flex-wrap */
+    /* Ajusta os elementos no eixo main  || 
+    start, end, center, space-between, space around, space-evenly */
+    justify-content: space-around; 
+    /* Ajusta os elementos no eixo cross  || 
+    stretch, flex-start, flex-end, center */
+    align-items: flex-start; 
+    /* center, space-between, space around, flex-start, flex-end */
+    /* align-content: space-around; */
+
+    height: 600px;
+}
+.item-1,
+.item-2,
+.item-3,
+.item-4{
+    width: 200px;
+    padding: 8px;
+}
+
+.item-1{
+    background-color: beige;
+}
+.item-2{
+    background-color: hsl(36, 100%, 75%);
+}
+.item-3{
+    background-color: hsl(40, 60%, 90%);
+    /* Ajusta os elementos no eixo cross individualmente  || 
+    stretch, flex-start, flex-end, center */
+    align-self: center;
+}
+.item-4{
+    background-color: hsl(48, 100%, 80%);
+}
+
+.container-2{
+    background-color: #ccc;
+    height: 250px;
+    display: flex;
+
+}
+.coluna-1{
+    background-color: aliceblue;
+    /* width: 200px; */
+    flex: 1.5;
+}
+.coluna-2{
+    background-color: antiquewhite;
+    flex: 4; /* Ocupa uma porção do espaço disponivel*/
+}
+.coluna-3{
+    background-color: bisque;
+    flex: 1;
+}
